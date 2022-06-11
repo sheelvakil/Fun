@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script>
+            function btntest_onclick(){
+            if (document.getElementById('input-code').value == '1234') {
+                window.location.href = "http://www.google.com";
+            } else {
+                window.location.href = "http://www.bing.com";
+            }
+        };
+        </script>    
+        
+
+    </head>
+
+    <body>
+        <h1> You made it </h1>
+        <input type="text" placeholder="Enter Your Code" id="input-code">
+<p>
+    <a href="#" class="btn" onclick="return btntest_onclick()">VERIFY NOW</a>
+</p>
+    </body>
+
+
+</html>
